@@ -1,0 +1,30 @@
+{
+  "name": "cypress.tests",
+  "version": "1.0.0",
+  "description": "Tests using cypress",
+  "main": "index.js",
+  "scripts": {
+    "cypress:open": "cypress open",
+    "ChromeHeadless": "npx cypress run --browser chrome --headless",
+    "ChromeMobile": "npx cypress run --browser chrome --headed --config-file cypress.env.json",
+    "ElectronHeadless": "npx cypress run --browser electron --headless",
+    "ElectronMobile": "npx cypress run --browser electron --headed --config-file cypress.env.json"
+  },
+  "keywords": [
+    "Cypress"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Vladislav0306/cypress1.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Vladislav0306/cypress1/issues"
+  },
+  "homepage": "https://github.com/Vladislav0306/cypress1#readme",
+  "devDependencies": {
+    "cypress": "^9.7.0"
+  }
+}
